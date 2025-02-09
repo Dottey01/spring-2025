@@ -1,0 +1,20 @@
+/* Colors */
+
+/*
+60% of #2960C0 - Primary
+30% of #29ABC0 - Secondary
+10% of #29C089 - Accent
+*/
+
+:root {
+
+/* var(--primaryColor) !important; */
+--primaryColor: #2960C0; 
+
+/* var(--secondaryColor) !important; */
+--primaryColor: #2960C0;
+
+/* var(--accentColor) !important; */
+--primaryColor: #2960C0;
+
+}

@@ -1,3 +1,2 @@
-body {
-    background-color: cornflowerblue;
-}
+@import 'global.css';
+@import 'main.css';
