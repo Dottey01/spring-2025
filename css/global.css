@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 /* Colors */
 
 /*
@@ -12,9 +15,12 @@
 --primaryColor: #2960C0; 
 
 /* var(--secondaryColor) !important; */
---primaryColor: #2960C0;
+--secondaryColor: #29ABC0;
 
 /* var(--accentColor) !important; */
---primaryColor: #2960C0;
+--accentColor: #29C089;
+
+/* var(--fontFamily) !important; */
+--fontFamily: "Roboto", serif;
 
 }

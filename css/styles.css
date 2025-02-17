@@ -1,54 +1,6 @@
 @import 'global.css';
 @import 'main.css';
 
-.col {
-    border: 1px solid black
-}
-
-
-.col:nth-of-type(2) {
-    background-color: deepskyblue;
-}
-
-.col:nth-of-type(3) {
-    background-color: rosybrown;
-}
-
-.col:nth-of-type(4) {
-    background-color: orange;
-}
-
-.col:nth-of-type(5) {
-    background-color: plum;
-}
-
-.col:nth-of-type(6) {
-    background-color: darkturquoise;
-}
-
-.col:nth-of-type(7) {
-    background-color: rgb(166, 255, 115);
-}
-
-.col:nth-of-type(8) {
-    background-color: rgb(77, 17, 64);
-}
-
-.col:nth-of-type(9) {
-    background-color: rgb(255, 132, 132);
-}
-
-
-.col:nth-of-type(10) {
-    background-color: rgb(82, 82, 82);
-}
-
-
-.col:nth-of-type(11) {
-    background-color: chocolate;
-}
-
-
-.col:nth-of-type(12) {
-    background-color: olive;
+body{
+    font-family: var(--fontFamily) !important; 
 }
