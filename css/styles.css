@@ -7,5 +7,9 @@ body{
 
 .blinn-fa-icon {
     font-size: 80px;
-    color: darkcyan;
+    color: black;
+}
+
+.blinn-fa-container{
+    background-color:/* var(--secondaryColor) !important;
 }
