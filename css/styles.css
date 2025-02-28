@@ -1,7 +1,7 @@
 @import 'global.css';
 @import 'main.css';
 
-body{
+p {
     font-family: var(--fontFamily) !important; 
 }
 
