@@ -1,4 +1,4 @@
-class Header extends HTMLElement {
+class Footer extends HTMLElement {
   constructor() {
     super();
   }
@@ -8,7 +8,7 @@ class Header extends HTMLElement {
   connectedCallback() {
 
 
-      fetch('components/header.html')
+      fetch('components/footer.html')
       .then(response => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
@@ -32,4 +32,4 @@ class Header extends HTMLElement {
   }
 }
 
-customElements.define('header-component', Header);
+customElements.define('footer-component', Footer);
