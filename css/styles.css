@@ -36,5 +36,5 @@ p {
     background-color: var(--secondaryColor) !important;
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
     position: relative;
-    margin-top: 5px;
+    margin-top: -5px;
 }
