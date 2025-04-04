@@ -45,4 +45,5 @@ p {
     margin-top: 15px;
     border: 10px solid var(--accentColor) !important; 
     border-radius: 50%;
+    clip-path: circle(50% at 50% 50%);
 }
