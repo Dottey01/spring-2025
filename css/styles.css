@@ -15,9 +15,10 @@ p {
     padding: 50px;
 }
 
-.blinn-fa-icon a{
-    color: white;
+.blinn-fa-container a{
+    color: white; !important;
 }
+
 
 .paragraph-one-img {
     position: relative;
