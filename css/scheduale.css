@@ -33,7 +33,7 @@
 
 .contant-table thead tr th{
     background-color: var(--primaryColor) !important;
-    color: white;
+    color: #ffff;
 }
 
 .contant-table th,
@@ -43,4 +43,8 @@
 
 .contant-table tbody tr {
     border-bottom: 1px solid #dddd;
+}
+
+.contant-table tbody tr {
+    background-color: darkred;
 }
