@@ -20,5 +20,27 @@
 .wrapper-content{
     margin: auto;
     width: 100%;
-    max-width: 100px;
+    max-width: 1000px;
+}
+
+.contant-table{
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.contant-table thead tr th{
+    background-color: var(--primaryColor) !important;
+    color: white;
+}
+
+.contant-table th,
+.contant-table td {
+    padding: 12px;
+}
+
+.contant-table tbody tr {
+    border-bottom: 1px solid #dddd;
 }
