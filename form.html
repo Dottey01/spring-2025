@@ -62,13 +62,13 @@ h1{
 <!--Phone-->
 <div>
     <label for="phone">Phone Number</label>
-    <input type="phone" name="phone" placeholder="(###) ###-####" />
+    <input type="phone" name="phone"  id="phone" placeholder="(###) ###-####" />
 </div>
 
 <!-- Start Date -date -->
  <div>
     <label for="start-date">Start Date</label>
-    <input type="date" name="startDate" required />
+    <input type="date" id="start-date"  name="startDate" required />
  </div>
 
  <!-- T-shirt - Select Field-->
@@ -82,13 +82,21 @@ h1{
     <option value="L">L</option>
     <option value="XL">XL</option>
     <option value="XXL">XXL</option>
+    <option value="CUSTOM">CUSTOM</option>
 </select>
 <input type="text" name="custom" placeholder="Please type in a custom size" disabled />
 </div>
 
+
+<!-- T-shirt Color - Color -->
+<div>
+    <label for="color">T-shirt Color</label>
+    <input type="color" name="color" id="color"/>
+</div>
+
 <!-- submit button-->
 <div>
-    <input type= "submit" name="submit" value="Foster Now" />
+    <input type= "submit" name="submit" value="Foster Now" class="submit" />
 </div>
 
 
