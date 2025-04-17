@@ -41,9 +41,54 @@ h1{
         <input type="input" id="first-name" name="firstName" />
     </div>
 
+    <!-- last name-->
+    <div>
+        <label for="last-name">Last Name</label>
+        <input type="input" id="last-name" name="lastName" />
+    </div>
+
+    <!--Age - number -->
+    <div>
+    <label for="age">Age</label>
+    <input type="number" name="age" id="age" min="18" max="120" />
+    </div>
+
+    <!-- Email -->
+     <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" />
+     </div>
+
+<!--Phone-->
+<div>
+    <label for="phone">Phone Number</label>
+    <input type="phone" name="phone" placeholder="(###) ###-####" />
+</div>
+
+<!-- Start Date -date -->
+ <div>
+    <label for="start-date">Start Date</label>
+    <input type="date" name="startDate" required />
+ </div>
+
+ <!-- T-shirt - Select Field-->
+<div>
+<label for="t-shirt"> T-shirt Size </label>
+<select id="t-shirt" required>
+    <option value="XXS">XXS</option>
+    <option value="XS">XS</option>
+    <option value="S">S</option>
+    <option value="M">M</option>
+    <option value="L">L</option>
+    <option value="XL">XL</option>
+    <option value="XXL">XXL</option>
+</select>
+<input type="text" name="custom" placeholder="Please type in a custom size" disabled />
+</div>
+
 <!-- submit button-->
 <div>
-    <input type= "submit" name="submit" vaule="Adopt Now" />
+    <input type= "submit" name="submit" value="Foster Now" />
 </div>
 
 
@@ -66,6 +111,11 @@ h1{
 <!-- Local JS File with Footer-->
 
 <script src="components/js/footer.js"></script>
+
+<!-- Local JS File For Form-->
+ <script src="/js/form.js"></script>
+
+
 </section>
     </body>
 </html>
