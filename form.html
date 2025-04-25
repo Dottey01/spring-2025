@@ -94,6 +94,50 @@ h1{
     <input type="color" name="color" id="color"/>
 </div>
 
+<!-- Background Check- Upload file-->
+<div>
+<label for="background-check">Background Check</label>
+<input type="file" id="background-check" accept=".pdf">
+</div>
+
+<!-- Participating In - Radio Buttons -->
+<div>
+    <strong>Participating In</strong><br />
+    <input type="radio" name="participating" id="raffle" vaule="Raffle" required />
+    <label for="raffle">Raffle</label>
+
+    <input type="radio" name="participating" id="donations" vaule="Donations" required />
+    <label for="donations">Donations</label>
+
+    <input type="radio" name="participating" id="expectator" vaule="Expectator" required />
+    <label for="expectator">Expectator</label>
+</div>
+
+<!--Time of Day - Checkbox Fields-->
+<div>
+    <strong>Time of Day</strong><br />
+    <input type="checkbox" name="timeOfDay" id="time-of-day-morning" vaule="Morning" required />
+    <label for="time-of-day-morning">Morning</label>
+
+    <input type="checkbox" name="timeOfDay" id="time-of-day-afternoon" vaule="afternoon" required />
+    <label for="time-of-day-afternoon">Afternoon</label>
+
+    <input type="checkbox" name="timeOfDay" id="time-of-day-evening" vaule="Evening" required />
+    <label for="time-of-day-evening">Evening</label>
+</div>
+
+<!-- Comments -->
+ <div>
+    <label for="about-you">Tell Us About You</label>
+    <textarea name="about-you" id="about-you"></textarea>
+ </div>
+
+ <!--Terms and Conditions -- Checkbox with toggle switch-->
+ <div>
+    <input type="checkbox" name="terms" id="terms-and-conditions" vaule="Yes" />
+    <label for="terms-and-conditions">I Accept the Terms and Conditions</label>
+ </div>
+
 <!-- submit button-->
 <div>
     <input type= "submit" name="submit" value="Foster Now" class="submit" />
