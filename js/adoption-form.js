@@ -13,32 +13,6 @@ console.clear();
   }
 //mask phone number
 
-
-////show/hide///////////
-document.getElementById("t-shirt").addEventListener('change', checkTshirt);
-
-function checkTshirt() {
-  
-  var tShirt = document.getElementById('t-shirt').value;
-  var custom = document.getElementById('custom');
-  
-  if (tShirt === 'CUSTOM') {   
-    custom.style.display = 'block'; 
-    custom.required = true;
-    custom.disabled = false;
-  }
-  else {
-    custom.style.display = 'none';
-    custom.required = false;
-    custom.disabled = true;
-    custom.value = '';
-  }
-  
-}
-////show/hide///////////
-
-
-
 ///////////////time of day///////////////
 
 //just the button variable
@@ -89,10 +63,6 @@ function chckTimeOfDay() {
   
 }
 //////////////////////time of day//////////////////////////////
-
-
-
-
 
 
 
