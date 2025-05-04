@@ -14,6 +14,7 @@ console.clear();
 //mask phone number
 
 
+
 ///////////////time of day///////////////
 
 //just the button variable
