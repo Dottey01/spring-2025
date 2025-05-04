@@ -13,32 +13,6 @@ console.clear();
   }
 //mask phone number
 
-
-////show/hide///////////
-document.getElementById("t-shirt").addEventListener('change', checkTshirt);
-
-function checkTshirt() {
-  
-  var tShirt = document.getElementById('t-shirt').value;
-  var custom = document.getElementById('custom');
-  
-  if (tShirt === 'CUSTOM') {   
-    custom.style.display = 'block'; 
-    custom.required = true;
-    custom.disabled = false;
-  }
-  else {
-    custom.style.display = 'none';
-    custom.required = false;
-    custom.disabled = true;
-    custom.value = '';
-  }
-  
-}
-////show/hide///////////
-
-
-
 ///////////////time of day///////////////
 
 //just the button variable
@@ -59,41 +33,6 @@ let timeOfDayFieldClass = document.querySelectorAll(".timeOfDay");
 
 
 /* extra - checking when a checkbox is clicked */
-
-
-function chckTimeOfDay() {
-  
-  let timeOfDayField = document.querySelectorAll(".timeOfDay");
-  let timeOfDayFieldChecked = document.querySelectorAll(".timeOfDay:checked");
-
-
-      if (timeOfDayFieldChecked.length === 0) {
-          // there are no checked checkboxes
-          console.log('no checkboxes checked');
-          timeOfDayField.forEach(item => {
-            item.required = true;  
-          })   
-        
-      } else {
-          // there are some checked checkboxes
-          console.log(timeOfDayFieldChecked.length + ' checkboxes checked');
-        
-          timeOfDayField.forEach(item => {
-            item.required = false;  
-          })
-          
-
-      }
-  
-  
-  
-}
-//////////////////////time of day//////////////////////////////
-
-
-
-
-
 
 
 // Example starter JavaScript for disabling form submissions if there are invalid fields
